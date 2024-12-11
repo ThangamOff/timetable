@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+:root{
+  --white:white;
+  --bule:#3D63AC;
+  --textColor:#b8b8b8;
+  --borderColor:#cacaca81;
+  --tableBorder:#b1b1b17b;
+  --tableHead:#8a8a8a;
+  --weekendbg: #cfcfcf55;
+  --time:#808080f0;
+  --rig:rgba(235, 233, 233, 0.345);
+}
+
+
+

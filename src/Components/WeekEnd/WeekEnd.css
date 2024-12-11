@@ -1,0 +1,51 @@
+
+.weekEndCon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    /* background-color: yellow; */
+}
+.weekEndtab{
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid var(--borderColor);
+    border-left: 1px solid var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+}
+.weekEndtab h4{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--borderColor);
+    background-color: var(--bule);
+    color: var(--white);
+}
+.weekEndtab1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px 10px;
+    background-color: var(--weekendbg);
+}
+.weekEndtab1 :nth-child(1){
+    font-size: 16px;
+    font-weight: 500;
+}
+.weekEndtab1 :nth-child(2){
+    font-size: 14px;
+    margin-top: 5px;
+}
